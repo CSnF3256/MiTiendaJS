@@ -42,12 +42,6 @@ No necesitas instalar nada.
 
 **Moneda:** está en dólares (USD). Se cambia en la función `money()` de `script.js`.
 
-## Publicar en Vercel
-
-1. Sube el proyecto a GitHub.
-2. En [vercel.com](https://vercel.com), elige **Add New → Project** e importa el repositorio.
-3. Pulsa **Deploy**. No hace falta configurar nada más.
-
 ## Limitaciones
 
 El botón «Finalizar compra» solo muestra un mensaje de confirmación. No procesa pagos reales.
