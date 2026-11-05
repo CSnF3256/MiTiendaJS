@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi Tienda</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>Mi Tienda</h1>
+    <button class="cart-btn" id="openCart" aria-label="Ver carrito">
+      🛒 Carrito <span class="badge" id="count">0</span>
+    </button>
+  </header>
+
+  <main>
+    <div class="grid" id="products"></div>
+  </main>
+
+  <div class="overlay" id="overlay"></div>
+
+  <aside class="drawer" id="drawer" aria-label="Carrito de compras">
+    <div class="drawer-head">
+      <h2>Tu carrito</h2>
+      <button class="close" id="closeCart" aria-label="Cerrar carrito">✕</button>
+    </div>
+    <div class="items" id="items"></div>
+    <div class="foot">
+      <div class="total"><span>Total</span><span id="total">$0.00</span></div>
+      <div class="row">
+        <button class="clear" id="clear">Vaciar</button>
+        <button class="pay" id="pay">Finalizar compra</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
